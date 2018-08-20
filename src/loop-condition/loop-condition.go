@@ -14,6 +14,7 @@ func main() {
 	fmt.Println("----")
 
 	// 그냥 for에 그냥 switch
+	// switch는 break 달지 않아도 알아서 break 걸림
 	for i := 0; i < 5; i++ {
 		switch i {
 		case 0:
